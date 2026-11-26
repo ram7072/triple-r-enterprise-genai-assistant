@@ -1,0 +1,110 @@
+[
+    {
+        "chunk_id": "Enterprise_Policies_1",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 1,
+        "text": "Synthetic Enterprise Policy Pack | RAG training material Page 1 SAMPLE ENTERPRISE POLICIES Synthetic training document for PDF ingestion, chunking, embeddings and RAG Fictional organisation: Northstar Services Pvt. Ltd. Document ID: NS-POLICY-PACK-001 Version: 1.0 Effective date: 1 April 2026 Review date: 31 March 2027 Purpose This fictional policy pack contains sample Human Resources, Procurement and Finance policies. It is designed for hands-on practice with an Enterprise GenAI Assistant. All names, thresholds, dates, entitlements and procedures are illustrative and must not be treated as the policy of a real organisation. How to use this file 1. Place this PDF in your project's data\\documents folder. 2. Run python -m app.ingest from the project root. 3. Inspect data\\chunks.json and verify document names, page numbers and extracted text. 4. Later, use it to test questions about leave, purchase approvals, vendor onboarding and invoice payment terms. This PDF contains selectable text,"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_2",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 1,
+        "text": "t. 4. Later, use it to test questions about leave, purchase approvals, vendor onboarding and invoice payment terms. This PDF contains selectable text, not scanned images. Your current pypdf-based extraction code can read it without OCR."
+    },
+    {
+        "chunk_id": "Enterprise_Policies_3",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 2,
+        "text": "Synthetic Enterprise Policy Pack | RAG training material Page 2 1. HUMAN RESOURCES POLICY 1.1 Purpose and scope The Human Resources policy establishes standard people practices for Northstar Services Pvt. Ltd. (the Company). It applies to full-time employees in India unless an employment agreement, applicable law or formally approved exception states otherwise. Contractors, consultants and temporary workers are covered only where their contracts expressly include the relevant provision. 1.2 Working hours and attendance The standard work week is Monday to Friday. Normal working hours are 9:30 a.m. to 6:30 p.m., including a one-hour meal break. A team manager may approve a different schedule to support customer operations, project delivery or regional collaboration. Employees must record attendance using the Company's approved attendance system. Repeated attendance exceptions should be discussed with the manager and HR. Employees working remotely must remain reachable during agreed core"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_4",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 2,
+        "text": "ystem. Repeated attendance exceptions should be discussed with the manager and HR. Employees working remotely must remain reachable during agreed core collaboration hours, protect Company information and follow the same attendance and leave-notification requirements as office-based employees. Remote work does not change the employee's obligation to meet role expectations. 1.3 Annual leave Eligible full-time employees receive 18 working days of annual leave for each completed leave year. Leave is credited at 1.5 days per completed month. New employees receive a pro-rated credit based on their joining date. Annual leave should normally be requested at least five working days in advance through the HR portal. Approval depends on team coverage, project commitments and the employee's available balance. Leave category Sample entitlement / rule Approval Annual leave 18 working days per completed leave year Reporting manager Casual leave 6 working days per leave year Reporting manager Sick"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_5",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 2,
+        "text": "ule Approval Annual leave 18 working days per completed leave year Reporting manager Casual leave 6 working days per leave year Reporting manager Sick leave 6 working days per leave year Notify manager; HR may request support documents Parental leave As per applicable law and Company policy HR and reporting manager Annual leave of more than five consecutive working days may require additional approval from the department head. Employees should hand over active work before starting planned leave. Unused leave carry-forward and encashment, where applicable, are governed by the Company's annual leave rules and applicable law. 1.4 Sick leave and absence notification An employee unable to work due to illness should notify the reporting manager as early as reasonably possible on the first day of absence and record the leave in the HR portal. For an absence of more than three consecutive working days, HR may request reasonable supporting documentation, subject to applicable law and privacy"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_6",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 2,
+        "text": "For an absence of more than three consecutive working days, HR may request reasonable supporting documentation, subject to applicable law and privacy requirements. Medical information must be handled confidentially and shared only with authorised personnel. 1.5 Learning and development Employees may request role-related training through their manager. The manager should evaluate business relevance, budget availability, expected skill improvement and workload impact. Training paid by the Company may require a completion certificate or a short knowledge-sharing session. Any service commitment associated with sponsored training must be communicated in writing before enrolment."
+    },
+    {
+        "chunk_id": "Enterprise_Policies_7",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 3,
+        "text": "Synthetic Enterprise Policy Pack | RAG training material Page 3 2. PROCUREMENT POLICY 2.1 Purpose and procurement principles The Procurement policy defines how the Company requests, evaluates, approves and purchases goods and services. All purchases must demonstrate business need, budget availability, fair supplier consideration, appropriate approval and documented evidence. Employees must not split a purchase into smaller requests to avoid an approval threshold. 2.2 Purchase request and approval thresholds A business requester must raise a purchase requisition before committing the Company to a supplier. The requisition must describe the goods or services, quantity, business justification, expected delivery date, cost centre and proposed supplier where known. Procurement checks completeness and sourcing requirements before a purchase order is issued. Estimated purchase value (INR) Minimum approval required Sourcing expectation Up to ■50,000 Department manager One quotation where"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_8",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 3,
+        "text": "se order is issued. Estimated purchase value (INR) Minimum approval required Sourcing expectation Up to ■50,000 Department manager One quotation where practical ■50,001 to ■5,00,000 Department head and Finance At least two comparable quotations ■5,00,001 to ■25,00,000 Business unit head and Finance controller At least three comparable quotations Above ■25,00,000 CFO and authorised executive approver Formal competitive sourcing unless exception approved These thresholds are illustrative internal controls for this training document. The approved purchase value includes applicable taxes, freight, implementation fees and other committed charges when known at the time of approval. 2.3 Vendor onboarding A new vendor must complete the vendor onboarding process before the first purchase order is released. The vendor record should include legal name, registered address, tax registration details where applicable, bank account evidence, primary contact, service category and signed contractual"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_9",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 3,
+        "text": "l name, registered address, tax registration details where applicable, bank account evidence, primary contact, service category and signed contractual documents. Procurement validates the submitted information, while Finance independently verifies bank details using an approved verification method. Vendor master changes, especially bank-account changes, require independent review. A requester must not approve their own vendor creation or bank-detail modification. Suspicious requests to change payment instructions must be escalated to the Finance controller and Information Security team. 2.4 Supplier evaluation Supplier evaluation should consider total cost of ownership, quality, delivery capability, information security, regulatory compliance, financial stability, support model and relevant references. The evaluation record should explain the selection decision and material trade-offs. A lower quoted price does not automatically represent the best-value supplier. 2.5 Purchase orders"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_10",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 3,
+        "text": "ain the selection decision and material trade-offs. A lower quoted price does not automatically represent the best-value supplier. 2.5 Purchase orders and emergency procurement Only authorised Procurement personnel may issue purchase orders. Suppliers should not begin work or ship goods before receiving an approved purchase order, except under a documented emergency exception. Emergency procurement may be used only when an immediate purchase is necessary to protect people, critical operations, assets or legal compliance and the normal process cannot be completed in time. The business owner must document the reason, supplier selection, estimated value and approvals. Procurement must review the transaction retrospectively within five working days."
+    },
+    {
+        "chunk_id": "Enterprise_Policies_11",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 4,
+        "text": "Synthetic Enterprise Policy Pack | RAG training material Page 4 3. FINANCE AND ACCOUNTS PAYABLE POLICY 3.1 Purpose and scope This policy describes minimum controls for supplier invoices, payment processing, expense classification and financial approvals. It applies to employees who request purchases, confirm receipt, process invoices, approve expenses or release payments. 3.2 Invoice submission requirements Suppliers should submit invoices to the designated Accounts Payable mailbox or supplier portal. Each invoice must contain the supplier's legal name, invoice number, invoice date, tax details where applicable, purchase order number, description of goods or services, amount, currency and payment instructions. Incomplete invoices may be placed on hold until missing information is provided. 3.3 Three-way matching For purchase-order-backed transactions, Accounts Payable performs a three-way match between the purchase order, goods receipt or service confirmation, and supplier invoice."
+    },
+    {
+        "chunk_id": "Enterprise_Policies_12",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 4,
+        "text": "ked transactions, Accounts Payable performs a three-way match between the purchase order, goods receipt or service confirmation, and supplier invoice. The invoice may proceed when the supplier, purchase order reference, quantity, price and receipt evidence are consistent within approved tolerances. A mismatch must be investigated and resolved before payment. Control Expected evidence Exception owner Purchase order match Approved PO and line-level value Procurement Receipt match Goods receipt or service-entry confirmation Business requester Invoice validation Supplier invoice and tax details Accounts Payable Payment release Approved payment proposal and bank validation Treasury / authorised approver 3.4 Standard payment terms The standard target payment term is 30 calendar days from the later of (a) receipt of a valid invoice and (b) confirmation that the goods or services have been accepted, unless the contract specifies another approved term. The payment due date must be calculated"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_13",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 4,
+        "text": "nfirmation that the goods or services have been accepted, unless the contract specifies another approved term. The payment due date must be calculated using the contractual term and the Company's business calendar. A disputed invoice is not ready for payment until the dispute is resolved. 3.5 Invoice exceptions and holds Common reasons for an invoice hold include a missing purchase order, missing receipt confirmation, duplicate invoice number, price variance, quantity variance, invalid tax information, vendor-master mismatch or suspected fraud. Accounts Payable records the hold reason, assigns an owner and tracks the resolution date. The requester and Procurement should respond to clarification requests promptly. A suspected duplicate or fraudulent invoice must not be paid while the investigation is open. Employees must not change supplier bank details based solely on an email request. Bank changes require independent verification using a previously validated supplier contact channel."
+    },
+    {
+        "chunk_id": "Enterprise_Policies_14",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 4,
+        "text": "er bank details based solely on an email request. Bank changes require independent verification using a previously validated supplier contact channel. 3.6 Expense reimbursement Business expenses must be reasonable, necessary, supported by itemised receipts and submitted through the expense-management system within 30 calendar days of the transaction. The employee's manager reviews business purpose and policy compliance. Finance checks documentation, tax treatment and expense coding. Employees cannot approve their own expenses."
+    },
+    {
+        "chunk_id": "Enterprise_Policies_15",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 5,
+        "text": "Synthetic Enterprise Policy Pack | RAG training material Page 5 4. INFORMATION HANDLING AND CONTROL REQUIREMENTS 4.1 Handling policy documents Employees must use approved Company repositories to store current policies, procedures, contracts and supporting records. Superseded policy versions should be marked as archived and retained according to the Company's records-retention schedule. A downloaded copy may become outdated; employees should confirm the effective version before relying on it. 4.2 Access and confidentiality Access to HR, procurement and finance records must be granted according to job responsibilities and the principle of least privilege. Employee personal data, supplier bank details, commercial pricing and payment information must not be exposed to unauthorised users. Access reviews should be performed periodically by the relevant data owner. 4.3 Records and audit trail Approvals, purchase requisitions, purchase orders, vendor changes, invoice holds, payment releases"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_16",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 5,
+        "text": "he relevant data owner. 4.3 Records and audit trail Approvals, purchase requisitions, purchase orders, vendor changes, invoice holds, payment releases and expense claims must retain a traceable audit record. The record should identify the requester, approver, date, decision and supporting evidence. Users must not overwrite or delete approval history to conceal a change. 4.4 Exceptions A policy exception must identify the requirement being waived, business justification, risk, duration, compensating control and approving authority. Exceptions must be time-bound and reviewed before expiry. An exception does not override applicable law or contractual obligations. 5. QUICK REFERENCE QUESTIONS Question Answer supported by this sample policy How many annual leave days are provided? 18 working days per completed leave year for eligible full-time employees. Who approves annual leave? The reporting manager; leave exceeding five consecutive working days may need department-head approval. What"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_17",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 5,
+        "text": "ime employees. Who approves annual leave? The reporting manager; leave exceeding five consecutive working days may need department-head approval. What approval is needed for a ■3 lakh purchase? Department head and Finance approval, with at least two comparable quotations. What is the standard payment term? 30 calendar days from the later of valid invoice receipt and goods/service acceptance, unless the contract specifies another approved term. What is three-way matching? Matching the purchase order, receipt or service confirmation, and supplier invoice. Can an employee approve their own expense? No. The manager reviews it and Finance performs its checks. 6. DOCUMENT CONTROL Field Value Document owner Enterprise Operations Policy custodians Human Resources, Procurement and Finance Version 1.0 Effective date 1 April 2026 Next scheduled review 31 March 2027 Status Synthetic sample for technical training only Disclaimer: Northstar Services Pvt. Ltd. is fictional. All names, thresholds,"
+    },
+    {
+        "chunk_id": "Enterprise_Policies_18",
+        "document_name": "Enterprise_Policies.pdf",
+        "page_number": 5,
+        "text": "review 31 March 2027 Status Synthetic sample for technical training only Disclaimer: Northstar Services Pvt. Ltd. is fictional. All names, thresholds, dates, entitlements and procedures in this document are illustrative. They do not describe any real organisation."
+    }
+]
